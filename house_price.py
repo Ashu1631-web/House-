@@ -20,7 +20,7 @@ from sklearn.linear_model import LinearRegression , SGDRegressor,Ridge,Lasso
 from sklearn.metrics import mean_squared_error,r2_score
 import statsmodels.api as sm
 
-df = pd.read_csv('/content/Housing.csv')
+df = pd.read_csv('Housing.csv')
 df.head()
 
 df.shape
